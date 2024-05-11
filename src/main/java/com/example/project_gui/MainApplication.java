@@ -13,7 +13,7 @@ public class MainApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(MainApplication.class.getResource("view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), stage.getMaxWidth(), stage.getMaxHeight());
-        Image image = new Image("file:///C:/Users/j32le/Documents/МГТУ им. Н.Э. Баумана/Разработка GUI приложений/Итоговый проект/Project_GUI/src/main/resources/Images/ege.png");
+        Image image = new Image("file:src/main/resources/Images/ege.png");
         stage.getIcons().add(image);
         stage.setTitle("ЕГЭ Физика 2024");
         stage.setScene(scene);
