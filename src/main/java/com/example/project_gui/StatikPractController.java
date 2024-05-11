@@ -48,14 +48,14 @@ public class StatikPractController {
             }
         });
         chekButton.setOnAction(actionEvent -> {
-            check.checkStatik();
+            check.check("statik");
             scrollPane.setVvalue(0);
         });
         if (userData.getUserInputStatik() != null) {
             for (int i = 0; i < fieldList.size(); i++) {
                 fieldList.get(i).setText(userData.getUserInputStatik().get(i));
             }
-            check.checkStatik();
+            check.check("statik");
         }
     }
 }

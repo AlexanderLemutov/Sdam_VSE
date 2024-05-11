@@ -45,14 +45,14 @@ public class KinematikPractController {
             }
         });
         chekButton.setOnAction(actionEvent -> {
-            check.checkKinematik();
+            check.check("kinematik");
             scrollPane.setVvalue(0);
         });
         if (userData.getUserInputKinematik() != null) {
             for (int i = 0; i < fieldList.size(); i++) {
                 fieldList.get(i).setText(userData.getUserInputKinematik().get(i));
             }
-            check.checkKinematik();
+            check.check("kinematik");
         }
     }
 }
