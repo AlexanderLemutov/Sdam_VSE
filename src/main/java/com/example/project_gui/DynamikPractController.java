@@ -48,14 +48,14 @@ public class DynamikPractController {
             }
         });
         chekButton.setOnAction(actionEvent -> {
-            check.checkDynamik();
+            check.check("dynamik");
             scrollPane.setVvalue(0);
         });
         if (userData.getUserInputDynamik() != null) {
             for (int i = 0; i < fieldList.size(); i++) {
                 fieldList.get(i).setText(userData.getUserInputDynamik().get(i));
             }
-            check.checkDynamik();
+            check.check("dynamik");
         }
     }
 }
