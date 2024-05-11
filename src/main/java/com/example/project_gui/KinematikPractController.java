@@ -29,11 +29,9 @@ public class KinematikPractController {
 
     @FXML
     void initialize() {
-        AnchorPane.setBottomAnchor(scrollPane, 0.0);
-        List<TextField> fieldList = new ArrayList<>();
-        List<String> correctAnswerList = new ArrayList<>();
-        fieldList.add(answerField); fieldList.add(answerField1);
-        correctAnswerList.add("-10"); correctAnswerList.add("0.5");
+        AnchorPane.setBottomAnchor(scrollPane, -1.5);
+        List<TextField> fieldList = new ArrayList<>(Arrays.asList(answerField, answerField1));
+        List<String> correctAnswerList = new ArrayList<>(Arrays.asList("-10", "0.5"));
 
         Check check = new Check(fieldList, correctAnswerList);
         SceneController sceneView = new SceneController();

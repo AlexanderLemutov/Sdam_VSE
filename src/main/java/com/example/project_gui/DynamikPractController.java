@@ -32,11 +32,9 @@ public class DynamikPractController {
 
     @FXML
     void initialize() {
-        AnchorPane.setBottomAnchor(scrollPane, 0.0);
-        List<TextField> fieldList = new ArrayList<>();
-        List<String> correctAnswerList = new ArrayList<>();
-        fieldList.add(answerField); fieldList.add(answerField1); fieldList.add(answerField2);
-        correctAnswerList.add("3"); correctAnswerList.add("3"); correctAnswerList.add("8");
+        AnchorPane.setBottomAnchor(scrollPane, -1.5);
+        List<TextField> fieldList = new ArrayList<>(Arrays.asList(answerField, answerField1, answerField2));
+        List<String> correctAnswerList = new ArrayList<>(Arrays.asList("3", "3", "8"));
 
         Check check = new Check(fieldList, correctAnswerList);
         SceneController sceneView = new SceneController();
