@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchorKinematik" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_gui.KinematikPractController">
+   <children>
+      <Button fx:id="returnButton" layoutX="-8.0" layoutY="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="75.0" AnchorPane.bottomAnchor="707.6666666666667" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1215.3333333333333" AnchorPane.topAnchor="0.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fx:id="returnImage" accessibleRole="BUTTON" fitHeight="26.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/return.png" />
+               </image></ImageView>
+         </graphic></Button>
+      <ScrollPane fx:id="scrollPane" layoutX="64.0" layoutY="-2.0" pannable="true" prefHeight="3000.0" prefWidth="1216.0" AnchorPane.bottomAnchor="-3000.0" AnchorPane.leftAnchor="64.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <AnchorPane fx:id="anchorPaneInScroll" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="3000.0" prefWidth="1200.0" style="-fx-background-color: white;">
+               <children>
+                  <ImageView fitHeight="403.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="1268.3333333333333" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@../../../Images/kinematikPract1.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="answerField" layoutX="101.0" layoutY="421.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" AnchorPane.leftAnchor="101.0" AnchorPane.rightAnchor="822.3333333333333" AnchorPane.topAnchor="421.0" />
+                  <Text layoutX="37.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674" AnchorPane.bottomAnchor="1233.2314453125" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="1098.3333333333333" AnchorPane.topAnchor="421.3333333333334">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="chekButton" layoutX="551.0" layoutY="2856.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="100.0" text="Сдать" AnchorPane.bottomAnchor="96.66666666666666" AnchorPane.leftAnchor="551.0" AnchorPane.rightAnchor="548.6666666666666" AnchorPane.topAnchor="2870.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></Button>
+                  <ImageView fitHeight="403.0" fitWidth="1200.0" layoutY="478.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <image>
+                        <Image url="@../../../Images/KinematikaPract2.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="answerField1" layoutX="99.0" layoutY="896.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="821.6666666666666" />
+                  <Text layoutX="36.0" layoutY="916.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674" AnchorPane.bottomAnchor="2079.2314453125" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="1099.3333333333333" AnchorPane.topAnchor="895.3333333333331">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
