@@ -35,7 +35,6 @@ public class Check {
                 textField.setStyle("-fx-border-color: red; -fx-border-width: 2px; -fx-border-radius: 5;");
                 userList.add(userInput);
             }
-
         }
         if (Objects.equals(key, "kinematik")) {
             userData.setUserInputKinematik(userList);
