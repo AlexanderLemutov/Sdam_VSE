@@ -15,7 +15,7 @@ public class MainApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load());
         Image image = new Image("file:src/main/resources/Images/ege.png");
         stage.getIcons().add(image);
-        stage.setTitle("ЕГЭ Физика 2024");
+        stage.setTitle("ЕГЭ Физика");
         stage.setScene(scene);
         stage.show();
     }
