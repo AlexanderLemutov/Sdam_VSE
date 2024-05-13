@@ -1,26 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="735.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_gui.StartController">
    <children>
-      <Button fx:id="theoryBtn" layoutX="233.0" layoutY="305.0" mnemonicParsing="false" onAction="#theoryBtnClick" prefHeight="97.0" prefWidth="297.0" text="Теоретический материал">
+      <ImageView fitHeight="745.0" fitWidth="1420.0" pickOnBounds="true" preserveRatio="true" scaleX="1.001" scaleY="1.001" scaleZ="0.0">
+         <image>
+            <Image url="@../../../Images/image%203.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="170.0" fitWidth="400.0" layoutX="440.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/image%202.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1170.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Images/image%204.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="196.0" prefHeight="171.0" prefWidth="1314.0" text="Привет, дорогой абитуриент. Представляем для тебя приложение для&#10;подготовки к ЕГЭ по физике. Чтобы начать обучение, нужно выбрать &#10;теоретический или практический материал. Желаем удачи&#10;в подготовке к экзаменам!" textAlignment="CENTER" textFill="WHITE">
          <font>
-            <Font size="20.0" />
+            <Font size="29.0" />
          </font>
+      </Label>
+      <Button layoutX="340.0" layoutY="490.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0">
+         <graphic>
+            <ImageView fitHeight="240.0" fitWidth="365.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/Rectangle%201.png" />
+               </image>
+            </ImageView>
+         </graphic>
       </Button>
-      <Button fx:id="practiceBtn" layoutX="734.0" layoutY="313.0" mnemonicParsing="false" onAction="#practiceBtnClick" prefHeight="91.0" prefWidth="307.0" text="Практическая часть">
-         <font>
-            <Font size="20.0" />
-         </font>
-      </Button>
-      <Button fx:id="exitBtn" layoutX="596.0" layoutY="646.0" mnemonicParsing="false" onAction="#exitBtnClick" text="Выход">
-         <font>
-            <Font size="20.0" />
-         </font>
+      <Button layoutX="880.0" layoutY="490.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0">
+         <graphic>
+            <ImageView fitHeight="240.0" fitWidth="365.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/image%205.png" />
+               </image>
+            </ImageView>
+         </graphic>
       </Button>
    </children>
 </AnchorPane>
