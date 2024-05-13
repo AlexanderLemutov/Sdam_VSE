@@ -29,7 +29,7 @@
             <Font size="29.0" />
          </font>
       </Label>
-      <Button layoutX="340.0" layoutY="490.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0">
+      <Button fx:id="theoryBtn" layoutX="340.0" layoutY="490.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" onAction="#theoryBtnClick" prefHeight="100.0" prefWidth="100.0">
          <graphic>
             <ImageView fitHeight="240.0" fitWidth="365.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -38,7 +38,7 @@
             </ImageView>
          </graphic>
       </Button>
-      <Button layoutX="880.0" layoutY="490.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0">
+      <Button fx:id="practiceBtn" layoutX="880.0" layoutY="490.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" onAction="#practiceBtnClick" prefHeight="100.0" prefWidth="100.0">
          <graphic>
             <ImageView fitHeight="240.0" fitWidth="365.0" pickOnBounds="true" preserveRatio="true">
                <image>
