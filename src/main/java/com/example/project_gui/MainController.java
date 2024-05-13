@@ -1,5 +1,6 @@
 package com.example.project_gui;
 
+import javafx.event.ActionEvent;
 import java.io.IOException;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -42,4 +43,9 @@ public class MainController {
             }
         });
     }
+    @FXML
+    void returnBtnClick(ActionEvent event) throws IOException {
+        switchFromTheory.switchToScene(event, "start.fxml");
+    }
+    SceneController switchFromTheory = new SceneController();
 }
