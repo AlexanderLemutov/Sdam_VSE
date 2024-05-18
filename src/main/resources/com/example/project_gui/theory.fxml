@@ -46,7 +46,7 @@
          <children>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Механика">
                <GridPane.margin>
-                  <Insets left="153.0" top="267.0" />
+                  <Insets left="153.0" top="285.0" />
                </GridPane.margin>
                <font>
                   <Font size="20.0" />
@@ -54,7 +54,7 @@
             </Text>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Молекулярная физика" GridPane.columnIndex="1">
                <GridPane.margin>
-                  <Insets left="97.5" top="267.0" />
+                  <Insets left="97.5" top="285.0" />
                </GridPane.margin>
                <font>
                   <Font size="20.0" />
@@ -62,7 +62,7 @@
             </Text>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Электродинамика" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="117.5" top="267.0" />
+                  <Insets left="117.5" top="285.0" />
                </GridPane.margin>
                <font>
                   <Font size="20.0" />
@@ -70,7 +70,7 @@
             </Text>
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Квантовая физика" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <GridPane.margin>
-                  <Insets left="117.0" top="267.0" />
+                  <Insets left="117.0" top="285.0" />
                </GridPane.margin>
                <font>
                   <Font size="20.0" />
