@@ -24,7 +24,7 @@ public class StartController {
 
     @FXML
     void practiceBtnClick(ActionEvent event) throws IOException {
-        switchFromStart.switchToScene(event, "view.fxml");
+        switchFromStart.switchToScene(event, "pract.fxml");
     }
 
     @FXML

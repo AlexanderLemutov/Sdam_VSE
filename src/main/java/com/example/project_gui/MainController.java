@@ -45,7 +45,7 @@ public class MainController {
     }
     @FXML
     void returnBtnClick(ActionEvent event) throws IOException {
-        switchFromTheory.switchToScene(event, "start.fxml");
+        sceneView.switchToScene(event, "pract.fxml");
     }
-    SceneController switchFromTheory = new SceneController();
+
 }

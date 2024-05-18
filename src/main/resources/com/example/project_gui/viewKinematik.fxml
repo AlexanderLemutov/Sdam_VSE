@@ -20,34 +20,131 @@
             <ImageView fx:id="returnImage" accessibleRole="BUTTON" fitHeight="26.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../Images/return.png" />
-               </image></ImageView>
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ImageView>
          </graphic></Button>
       <ScrollPane fx:id="scrollPane" layoutX="64.0" layoutY="-2.0" pannable="true" prefHeight="3000.0" prefWidth="1216.0" AnchorPane.bottomAnchor="-3000.0" AnchorPane.leftAnchor="64.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <content>
-            <AnchorPane fx:id="anchorPaneInScroll" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="3000.0" prefWidth="1200.0" style="-fx-background-color: white;">
+            <AnchorPane fx:id="anchorPaneInScroll" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="3233.0" prefWidth="1200.0" style="-fx-background-color: white;">
                <children>
-                  <ImageView fitHeight="403.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="1268.3333333333333" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <ImageView fitHeight="300.0" fitWidth="396.0" layoutX="415.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="2485.0" AnchorPane.leftAnchor="415.0" AnchorPane.rightAnchor="415.76922607421875" AnchorPane.topAnchor="215.0">
                      <image>
                         <Image url="@../../../Images/kinematikPract1.png" />
                      </image>
                   </ImageView>
-                  <TextField fx:id="answerField" layoutX="101.0" layoutY="421.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" AnchorPane.leftAnchor="101.0" AnchorPane.rightAnchor="822.3333333333333" AnchorPane.topAnchor="421.0" />
-                  <Text layoutX="37.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674" AnchorPane.bottomAnchor="1233.2314453125" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="1098.3333333333333" AnchorPane.topAnchor="421.3333333333334">
+                  <TextField fx:id="answerField" layoutX="165.0" layoutY="578.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="275.0" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="760.0" AnchorPane.topAnchor="573.0" />
+                  <Text layoutX="100.0" layoutY="594.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674" AnchorPane.bottomAnchor="2399.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="1035.3333333333333" AnchorPane.topAnchor="573.0">
                      <font>
                         <Font size="19.0" />
                      </font>
                   </Text>
-                  <Button fx:id="chekButton" layoutX="551.0" layoutY="2856.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="100.0" text="Сдать" AnchorPane.bottomAnchor="96.66666666666666" AnchorPane.leftAnchor="551.0" AnchorPane.rightAnchor="548.6666666666666" AnchorPane.topAnchor="2870.0">
+                  <Button fx:id="chekButton" layoutX="550.0" layoutY="3161.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="99.0" text="Сдать" AnchorPane.leftAnchor="550.0" AnchorPane.rightAnchor="551.3333333333334">
                      <font>
                         <Font size="14.0" />
                      </font></Button>
-                  <ImageView fitHeight="403.0" fitWidth="1200.0" layoutY="478.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                  <ImageView fitHeight="299.0" fitWidth="308.0" layoutX="490.0" layoutY="806.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="485.0" AnchorPane.rightAnchor="481.7633361816406">
                      <image>
                         <Image url="@../../../Images/KinematikaPract2.png" />
                      </image>
                   </ImageView>
-                  <TextField fx:id="answerField1" layoutX="99.0" layoutY="896.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="821.6666666666666" />
-                  <Text layoutX="36.0" layoutY="916.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674" AnchorPane.bottomAnchor="2079.2314453125" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="1099.3333333333333" AnchorPane.topAnchor="895.3333333333331">
+                  <TextField fx:id="answerField1" layoutX="170.0" layoutY="1157.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" AnchorPane.leftAnchor="170.0" AnchorPane.rightAnchor="752.6666666666667" />
+                  <Text layoutX="106.0" layoutY="1178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674" AnchorPane.bottomAnchor="1817.2314453125" AnchorPane.leftAnchor="106.0" AnchorPane.rightAnchor="1029.3333333333333" AnchorPane.topAnchor="1157.4970703125">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="94.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1) Автомобиль движется по прямой улице. На графике представлена зависимость скорости автомобиля от времени. Чему равен максимальный модуль ускорения? Ответ выразите в метрах на секунду в квадрате." textAlignment="JUSTIFY" wrappingWidth="1001.6667249997458" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="104.33327500025416">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="106.0" layoutY="698.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2) На рисунке представлен график зависимости модуля скорости тела от времени. Найдите путь, пройденный телом за время от момента времени 0 с до момента времени 5 с. Ответ дайте в метрах. " textAlignment="JUSTIFY" wrappingWidth="1001.6667249997458">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="103.0" layoutY="1275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3) По плоскости XY движутся четыре точечных тела  —  А, Б, В и Г, и  траектории которых изображены на рисунке. Зависимости координат одного из этих тел от времени имеют вид x = 1 + t и y = 2t. Это тело обозначено буквой:" textAlignment="JUSTIFY" wrappingWidth="1001.6667249997458">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="106.0" layoutY="1380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.  А 2.  Б 3.  В 4.  Г " wrappingWidth="39.91450500488281">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="299.0" fitWidth="308.0" layoutX="499.0" layoutY="1496.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="485.3333333333333" AnchorPane.rightAnchor="486.43000284830737">
+                     <image>
+                        <Image url="@../../../Images/kinematikPract3.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="answerField2" layoutX="186.0" layoutY="1856.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
+                  <Text layoutX="120.0" layoutY="1878.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="106.0" layoutY="1997.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4) Тело движется по оси Ох. По графику зависимости проекции скорости тела Vx от времени t установите, какой путь прошло тело за время от t1  =  0 до t2 =  4 с. (Ответ дайте в метрах.)" textAlignment="JUSTIFY" wrappingWidth="1001.6667249997458">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="318.0" fitWidth="373.0" layoutX="416.0" layoutY="2070.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="413.0" AnchorPane.rightAnchor="413.66666666666674">
+                     <image>
+                        <Image url="@../../../Images/kinematikPract4.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="answerField3" layoutX="172.0" layoutY="2391.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
+                  <Text layoutX="106.0" layoutY="2412.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="103.0" layoutY="2521.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5) Мальчик съезжает на санках равноускоренно со снежной горки. Скорость санок в конце спуска 10 м/⁠с. Ускорение равно 1 м/⁠с2, начальная скорость равна нулю. Какова длина горки? (Ответ дайте в метрах.)" textAlignment="JUSTIFY" wrappingWidth="1001.6667249997458">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="answerField4" layoutX="175.0" layoutY="2636.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
+                  <Text layoutX="109.0" layoutY="2657.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="106.0" layoutY="2771.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6) На рисунке приведены графики зависимости координаты от времени для двух тел: А и В, движущихся по прямой, вдоль которой и направлена ось Ох. Выберите все верные утверждения о характере движения тел." textAlignment="JUSTIFY" wrappingWidth="1001.6667249997458">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="105.0" layoutY="2869.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.  Тело А движется с ускорением 3 м/⁠с2. " wrappingWidth="414.1366271972656">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="106.0" layoutY="2904.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.  Тело А движется с постоянной скоростью, равной 2,5 м/⁠с. " wrappingWidth="628.8033142089844">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="106.0" layoutY="2941.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3.  В течение первых пяти секунд тела двигались в одном направлении." wrappingWidth="735.4700012207031">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="106.0" layoutY="2980.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4.  Вторично тела А и В встретились в момент времени, равный 9 с." wrappingWidth="735.4700012207031">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="106.0" layoutY="3018.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5.  В момент времени t  =  5 с тело В достигло максимальной скорости движения. " wrappingWidth="825.4700012207031">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="answerField5" layoutX="171.0" layoutY="3066.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="275.0" />
+                  <Text layoutX="106.0" layoutY="3087.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
                      <font>
                         <Font size="19.0" />
                      </font>

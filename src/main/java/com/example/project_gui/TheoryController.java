@@ -10,14 +10,15 @@ import java.io.IOException;
 
 public class TheoryController {
 
+    SceneController sceneView = new SceneController();
+
     @FXML
     private Button returnBtn;
 
     @FXML
     void returnBtnClick(ActionEvent event) throws IOException {
-        switchFromTheory.switchToScene(event, "start.fxml");
+        sceneView.switchToScene(event, "start.fxml");
     }
-    SceneController switchFromTheory = new SceneController();
     @FXML
     void electrodynamicsBtnClick(MouseEvent event) {
 

@@ -13,10 +13,7 @@ import static com.example.project_gui.Check.userData;
 public class KinematikPractController {
 
     @FXML
-    private TextField answerField;
-
-    @FXML
-    private TextField answerField1;
+    private TextField answerField, answerField1, answerField2, answerField3, answerField4, answerField5;
 
     @FXML
     private Button chekButton;
@@ -30,8 +27,8 @@ public class KinematikPractController {
     @FXML
     void initialize() {
         AnchorPane.setBottomAnchor(scrollPane, -1.5);
-        List<TextField> fieldList = new ArrayList<>(Arrays.asList(answerField, answerField1));
-        List<String> correctAnswerList = new ArrayList<>(Arrays.asList("-10", "0.5"));
+        List<TextField> fieldList = new ArrayList<>(Arrays.asList(answerField, answerField1, answerField2, answerField3, answerField4, answerField5));
+        List<String> correctAnswerList = new ArrayList<>(Arrays.asList("2", "20", "3", "20", "50", "24"));
 
         Check check = new Check(fieldList, correctAnswerList);
         SceneController sceneView = new SceneController();
