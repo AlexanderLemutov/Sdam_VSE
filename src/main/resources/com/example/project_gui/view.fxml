@@ -20,19 +20,19 @@
             <Font size="48.0" />
          </font>
       </Text>
-      <Text fx:id="kinematikText" layoutX="371.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кинематика" textAlignment="CENTER" AnchorPane.bottomAnchor="246.65104166666663" AnchorPane.leftAnchor="371.0" AnchorPane.rightAnchor="823.4921875" AnchorPane.topAnchor="468.734375">
+      <Text fx:id="kinematikText" layoutX="359.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кинематика" textAlignment="CENTER" AnchorPane.bottomAnchor="243.98046875" AnchorPane.leftAnchor="359.0" AnchorPane.rightAnchor="811.615234375" AnchorPane.topAnchor="464.41796875">
          <font>
-            <Font size="16.0" />
+            <Font size="20.0" />
          </font>
       </Text>
-      <Text fx:id="dynamikText" layoutX="603.0" layoutY="485.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Динамика" textAlignment="CENTER" AnchorPane.bottomAnchor="247.65104166666663" AnchorPane.leftAnchor="603.0" AnchorPane.rightAnchor="605.2760416666667" AnchorPane.topAnchor="467.734375">
+      <Text fx:id="dynamikText" layoutX="594.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Динамика" textAlignment="CENTER" AnchorPane.bottomAnchor="243.98046875" AnchorPane.leftAnchor="594.0" AnchorPane.rightAnchor="593.01171875" AnchorPane.topAnchor="464.41796875">
          <font>
-            <Font size="16.0" />
+            <Font size="20.0" />
          </font>
       </Text>
-      <Text fx:id="statikText" layoutX="837.0" layoutY="484.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Статика" textAlignment="CENTER" AnchorPane.bottomAnchor="248.65104166666663" AnchorPane.leftAnchor="837.0" AnchorPane.rightAnchor="389.7708333333335" AnchorPane.topAnchor="466.734375">
+      <Text fx:id="statikText" layoutX="828.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Статика" textAlignment="CENTER" AnchorPane.bottomAnchor="243.98046875" AnchorPane.leftAnchor="828.0" AnchorPane.rightAnchor="381.296875" AnchorPane.topAnchor="464.41796875">
          <font>
-            <Font size="16.0" />
+            <Font size="20.0" />
          </font>
       </Text>
       <Button fx:id="kinematikButton" layoutX="364.0" layoutY="309.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: white;" styleClass="test" stylesheets="@../../../Style/animation.css" textAlignment="CENTER" AnchorPane.bottomAnchor="326.3333333333333" AnchorPane.leftAnchor="364.0" AnchorPane.rightAnchor="816.0" AnchorPane.topAnchor="309.0">
@@ -77,12 +77,12 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="returnBtn" minWidth="70.0" mnemonicParsing="false" onAction="#returnBtnClick" prefWidth="70.0" styleClass="return-btn" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+      <Button fx:id="returnBtn" maxHeight="35.0" maxWidth="75.0" minHeight="35.0" minWidth="75.0" mnemonicParsing="false" onAction="#returnBtnClick" prefHeight="35.0" prefWidth="75.0" styleClass="return-btn" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
          <font>
             <Font size="20.0" />
          </font>
          <graphic>
-            <ImageView fitHeight="24.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="26.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../Images/return.png" />
                </image>
