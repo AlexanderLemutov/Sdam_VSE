@@ -54,7 +54,7 @@ public class MechTheoryController {
 
     @FXML
     void kinematikBtnClick(ActionEvent event) throws IOException {
-        sceneView.switchToScene(event, "viewKinematik.fxml");
+        sceneView.switchToScene(event, "kinematikTheory.fxml");
     }
 
     @FXML
