@@ -37,10 +37,13 @@
                                 <Font size="19.0" />
                             </font>
                         </Text>
-                        <Button fx:id="chekButton" layoutX="551.0" layoutY="2873.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"  mnemonicParsing="false" prefHeight="33.0" prefWidth="99.0" text="Сдать" styleClass="check-btn" textAlignment="CENTER" AnchorPane.bottomAnchor="97.0" AnchorPane.leftAnchor="551.0" AnchorPane.rightAnchor="550.0" AnchorPane.topAnchor="2870.0">
+                        <Button fx:id="chekButton" layoutX="551.0" layoutY="2873.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="33.0" prefWidth="99.0" styleClass="check-btn" text="Сдать" textAlignment="CENTER" AnchorPane.bottomAnchor="97.0" AnchorPane.leftAnchor="551.0" AnchorPane.rightAnchor="550.0" AnchorPane.topAnchor="2870.0">
                             <font>
                                 <Font size="14.0" />
-                            </font></Button>
+                            </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
                         <ImageView fitHeight="447.0" fitWidth="1200.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
                             <image>
                                 <Image url="@../../../Images/dynamikPract2.png" />
