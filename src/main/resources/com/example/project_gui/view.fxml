@@ -72,7 +72,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Button fx:id="returnBtn" minWidth="70.0" mnemonicParsing="false" onAction="#returnBtnClick"  prefWidth="70.0" styleClass="return-btn" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+      <Button fx:id="returnBtn" minWidth="70.0" mnemonicParsing="false" onAction="#returnBtnClick" prefWidth="70.0" styleClass="return-btn" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
          <font>
             <Font size="20.0" />
          </font>
@@ -81,8 +81,14 @@
                <image>
                   <Image url="@../../../Images/return.png" />
                </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </ImageView>
          </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
       </Button>
    </children>
 </AnchorPane>
