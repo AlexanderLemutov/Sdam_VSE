@@ -16,13 +16,7 @@ public class DynamikPractController {
     private ScrollPane scrollPane;
 
     @FXML
-    private TextField answerField;
-
-    @FXML
-    private TextField answerField1;
-
-    @FXML
-    private TextField answerField2;
+    private TextField answerField, answerField1, answerField2, answerField3, answerField4;
 
     @FXML
     private Button chekButton;
@@ -33,8 +27,8 @@ public class DynamikPractController {
     @FXML
     void initialize() {
         AnchorPane.setBottomAnchor(scrollPane, -1.5);
-        List<TextField> fieldList = new ArrayList<>(Arrays.asList(answerField, answerField1, answerField2));
-        List<String> correctAnswerList = new ArrayList<>(Arrays.asList("3", "3", "8"));
+        List<TextField> fieldList = new ArrayList<>(Arrays.asList(answerField, answerField1, answerField2, answerField3, answerField4));
+        List<String> correctAnswerList = new ArrayList<>(Arrays.asList("10", "2", "2", "0.5", "20"));
 
         Check check = new Check(fieldList, correctAnswerList);
         SceneController sceneView = new SceneController();
