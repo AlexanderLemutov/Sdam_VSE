@@ -24,7 +24,6 @@ public class StartController {
 
     @FXML
     public void initialize() {
-        // Убедитесь, что сцена установлена перед применением стилей
         theoryBtn.sceneProperty().addListener((observable, oldScene, newScene) -> {
             if (newScene != null) {
                 newScene.getStylesheets().add(getClass().getResource("/Style/animation.css").toExternalForm());
