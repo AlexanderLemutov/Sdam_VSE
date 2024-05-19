@@ -16,7 +16,7 @@ public class MainApplication extends Application {
         Image image = new Image("file:src/main/resources/Images/ege.png");
         stage.getIcons().add(image);
         stage.setTitle("ЕГЭ Физика");
-        stage.setMaximized(true); // У вас шакально будет, сори если че уберите
+        //stage.setMaximized(true); // У вас шакально будет, сори если че уберите
         stage.setScene(scene);
         stage.show();
     }
