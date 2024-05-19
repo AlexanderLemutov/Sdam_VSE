@@ -38,8 +38,8 @@ public class PractController {
     }
 
     @FXML
-    void quantumBtnClick(MouseEvent event) {
-
+    void quantumBtnClick(ActionEvent event) throws IOException {
+        sceneView.switchToScene(event, "viewQuantum.fxml");
     }
 
     @FXML

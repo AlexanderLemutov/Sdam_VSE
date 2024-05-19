@@ -43,7 +43,10 @@
                   <Button fx:id="chekButton" layoutX="550.0" layoutY="3161.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="99.0" text="Сдать" AnchorPane.leftAnchor="550.0" AnchorPane.rightAnchor="551.3333333333334">
                      <font>
                         <Font size="14.0" />
-                     </font></Button>
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
                   <ImageView fitHeight="299.0" fitWidth="308.0" layoutX="490.0" layoutY="806.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="485.0" AnchorPane.rightAnchor="481.7633361816406">
                      <image>
                         <Image url="@../../../Images/KinematikaPract2.png" />
@@ -153,5 +156,17 @@
             </AnchorPane>
          </content>
       </ScrollPane>
+      <Button fx:id="resetButton" layoutX="-6.0" layoutY="27.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="27.0" prefWidth="65.0" AnchorPane.bottomAnchor="681.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1215.0" AnchorPane.topAnchor="27.0">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <graphic>
+            <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Images/free-icon-undo-arrow-82004.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
    </children>
 </AnchorPane>

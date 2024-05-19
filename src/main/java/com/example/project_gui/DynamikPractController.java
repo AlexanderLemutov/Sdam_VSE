@@ -25,6 +25,9 @@ public class DynamikPractController {
     private Button returnButton;
 
     @FXML
+    private Button resetButton;
+
+    @FXML
     void initialize() {
         AnchorPane.setBottomAnchor(scrollPane, -1.5);
         List<TextField> fieldList = new ArrayList<>(Arrays.asList(answerField, answerField1, answerField2, answerField3, answerField4));
@@ -38,6 +41,9 @@ public class DynamikPractController {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+        });
+        resetButton.setOnAction(actionEvent -> {
+            check.reset("dynamik");
         });
         chekButton.setOnAction(actionEvent -> {
             check.check("dynamik");

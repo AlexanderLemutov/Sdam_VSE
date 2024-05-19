@@ -46,6 +46,29 @@ public class Check {
             userData.setUserInputMolecular(userList);
         } else if (Objects.equals(key, "electroDynamik")) {
             userData.setUserInputElectroDynamik(userList);
+        } else if (Objects.equals(key, "quantum")) {
+            userData.setUserInputQuantum(userList);
+        }
+    }
+
+    public void reset(String key) {
+        for (int i = 0; i < answerArray.size(); i++) {
+            TextField textField = answerArray.get(i);
+            textField.setStyle("-fx-border-color: black; -fx-border-width: 1px; -fx-border-radius: 5;");
+            textField.setText("");
+            }
+        if (Objects.equals(key, "kinematik")) {
+            userData.setUserInputKinematik(null);
+        } else if (Objects.equals(key, "dynamik")) {
+            userData.setUserInputDynamik(null);
+        } else if (Objects.equals(key, "statik")) {
+            userData.setUserInputStatik(null);
+        } else if (Objects.equals(key, "molecular")) {
+            userData.setUserInputMolecular(null);
+        } else if (Objects.equals(key, "electroDynamik")) {
+            userData.setUserInputElectroDynamik(null);
+        } else if (Objects.equals(key, "quantum")) {
+            userData.setUserInputQuantum(null);
         }
     }
 }

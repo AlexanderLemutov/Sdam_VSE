@@ -10,7 +10,7 @@ import javafx.scene.layout.AnchorPane;
 
 import static com.example.project_gui.Check.userData;
 
-public class KinematikPractController {
+public class QuantumPractController {
 
     @FXML
     private TextField answerField, answerField1, answerField2, answerField3, answerField4, answerField5;
@@ -19,10 +19,10 @@ public class KinematikPractController {
     private Button chekButton;
 
     @FXML
-    private Button returnButton;
+    private Button resetButton;
 
     @FXML
-    private Button resetButton;
+    private Button returnButton;
 
     @FXML
     private ScrollPane scrollPane;
@@ -31,29 +31,31 @@ public class KinematikPractController {
     void initialize() {
         AnchorPane.setBottomAnchor(scrollPane, -1.5);
         List<TextField> fieldList = new ArrayList<>(Arrays.asList(answerField, answerField1, answerField2, answerField3, answerField4, answerField5));
-        List<String> correctAnswerList = new ArrayList<>(Arrays.asList("2", "20", "3", "20", "50", "24"));
+        List<String> correctAnswerList = new ArrayList<>(Arrays.asList("29", "2", "50", "25", "92", "11"));
 
         Check check = new Check(fieldList, correctAnswerList);
         SceneController sceneView = new SceneController();
         returnButton.setOnAction(actionEvent -> {
             try {
-                sceneView.switchToScene(actionEvent,"view.fxml");
+                sceneView.switchToScene(actionEvent,"pract.fxml");
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
         });
         resetButton.setOnAction(actionEvent -> {
-            check.reset("kinematik");
+            check.reset("quantum");
         });
         chekButton.setOnAction(actionEvent -> {
-            check.check("kinematik");
+            check.check("quantum");
             scrollPane.setVvalue(0);
         });
-        if (userData.getUserInputKinematik() != null) {
+
+
+        if (userData.getUserInputQuantum() != null) {
             for (int i = 0; i < fieldList.size(); i++) {
-                fieldList.get(i).setText(userData.getUserInputKinematik().get(i));
+                fieldList.get(i).setText(userData.getUserInputQuantum().get(i));
             }
-            check.check("kinematik");
+            check.check("quantum");
         }
     }
 }

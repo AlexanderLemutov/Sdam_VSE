@@ -97,5 +97,17 @@
                 </AnchorPane>
             </content>
         </ScrollPane>
+        <Button fx:id="resetButton" layoutX="-6.0" layoutY="27.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="27.0" prefWidth="65.0" AnchorPane.bottomAnchor="681.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1215.0" AnchorPane.topAnchor="27.0">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+            <graphic>
+                <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../Images/free-icon-undo-arrow-82004.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
     </children>
 </AnchorPane>

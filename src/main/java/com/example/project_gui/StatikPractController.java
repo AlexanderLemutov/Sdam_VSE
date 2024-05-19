@@ -25,10 +25,13 @@ public class StatikPractController {
     private Button returnButton;
 
     @FXML
+    private Button resetButton;
+
+    @FXML
     void initialize() {
         AnchorPane.setBottomAnchor(scrollPane, -1.5);
         List<TextField> fieldList = new ArrayList<>(Arrays.asList(answerField, answerField1, answerField2, answerField3, answerField4, answerField5));
-        List<String> correctAnswerList = new ArrayList<>(Arrays.asList("0,75", "150", "2", "173", "24", "25"));
+        List<String> correctAnswerList = new ArrayList<>(Arrays.asList("0.75", "150", "2", "173", "24", "25"));
 
         Check check = new Check(fieldList, correctAnswerList);
         SceneController sceneView = new SceneController();
@@ -38,6 +41,9 @@ public class StatikPractController {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+        });
+        resetButton.setOnAction(actionEvent -> {
+            check.reset("statik");
         });
         chekButton.setOnAction(actionEvent -> {
             check.check("statik");

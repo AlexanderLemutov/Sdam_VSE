@@ -43,7 +43,10 @@
                         <Button fx:id="chekButton" layoutX="566.0" layoutY="2149.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="99.0" text="Сдать" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="566.0" AnchorPane.rightAnchor="535.3333333333334">
                             <font>
                                 <Font size="14.0" />
-                            </font></Button>
+                            </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
                         <ImageView fitHeight="300.0" fitWidth="689.0" layoutX="278.0" layoutY="1373.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="278.0" AnchorPane.rightAnchor="233.0">
                             <image>
                                 <Image url="@../../../Images/electroDynamikPract2.png" />
@@ -137,5 +140,17 @@
                 </AnchorPane>
             </content>
         </ScrollPane>
+        <Button fx:id="resetButton" layoutX="-6.0" layoutY="27.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="27.0" prefWidth="65.0" AnchorPane.bottomAnchor="681.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1215.0" AnchorPane.topAnchor="27.0">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+            <graphic>
+                <ImageView fitHeight="23.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../../Images/free-icon-undo-arrow-82004.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
     </children>
 </AnchorPane>

@@ -22,6 +22,9 @@ public class MolecularPractController {
     private Button returnButton;
 
     @FXML
+    private Button resetButton;
+
+    @FXML
     private ScrollPane scrollPane;
 
     @FXML
@@ -38,6 +41,9 @@ public class MolecularPractController {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+        });
+        resetButton.setOnAction(actionEvent -> {
+            check.reset("molecular");
         });
         chekButton.setOnAction(actionEvent -> {
             check.check("molecular");
