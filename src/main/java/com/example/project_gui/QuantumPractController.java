@@ -19,6 +19,9 @@ public class QuantumPractController {
     private Button chekButton;
 
     @FXML
+    private Button resetButton;
+
+    @FXML
     private Button returnButton;
 
     @FXML
@@ -39,10 +42,15 @@ public class QuantumPractController {
                 throw new RuntimeException(e);
             }
         });
+        resetButton.setOnAction(actionEvent -> {
+            check.reset("quantum");
+        });
         chekButton.setOnAction(actionEvent -> {
             check.check("quantum");
             scrollPane.setVvalue(0);
         });
+
+
         if (userData.getUserInputQuantum() != null) {
             for (int i = 0; i < fieldList.size(); i++) {
                 fieldList.get(i).setText(userData.getUserInputQuantum().get(i));

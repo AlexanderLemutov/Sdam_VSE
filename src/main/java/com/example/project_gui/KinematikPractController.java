@@ -22,6 +22,9 @@ public class KinematikPractController {
     private Button returnButton;
 
     @FXML
+    private Button resetButton;
+
+    @FXML
     private ScrollPane scrollPane;
 
     @FXML
@@ -38,6 +41,9 @@ public class KinematikPractController {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+        });
+        resetButton.setOnAction(actionEvent -> {
+            check.reset("kinematik");
         });
         chekButton.setOnAction(actionEvent -> {
             check.check("kinematik");

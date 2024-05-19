@@ -22,6 +22,9 @@ public class ElectroDynamikPractController {
     private Button returnButton;
 
     @FXML
+    private Button resetButton;
+
+    @FXML
     private ScrollPane scrollPane;
 
     @FXML
@@ -38,6 +41,9 @@ public class ElectroDynamikPractController {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+        });
+        resetButton.setOnAction(actionEvent -> {
+            check.reset("electroDynamik");
         });
         chekButton.setOnAction(actionEvent -> {
             check.check("electroDynamik");
