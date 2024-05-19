@@ -42,6 +42,8 @@ public class Check {
             userData.setUserInputDynamik(userList);
         } else if (Objects.equals(key, "statik")) {
             userData.setUserInputStatik(userList);
+        } else if (Objects.equals(key, "molecular")) {
+            userData.setUserInputMolecular(userList);
         }
     }
 }

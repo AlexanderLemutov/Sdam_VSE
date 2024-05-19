@@ -32,8 +32,8 @@ public class PractController {
     }
 
     @FXML
-    void molecularBtnClick(MouseEvent event) {
-
+    void molecularBtnClick(ActionEvent event) throws IOException {
+        sceneView.switchToScene(event, "viewMolecular.fxml");
     }
 
     @FXML
