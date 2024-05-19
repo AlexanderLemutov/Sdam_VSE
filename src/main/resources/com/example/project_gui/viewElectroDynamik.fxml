@@ -43,7 +43,10 @@
                         <Button fx:id="chekButton" layoutX="566.0" layoutY="2149.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="99.0" text="Сдать" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="566.0" AnchorPane.rightAnchor="535.3333333333334">
                             <font>
                                 <Font size="14.0" />
-                            </font></Button>
+                            </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
                         <ImageView fitHeight="300.0" fitWidth="689.0" layoutX="278.0" layoutY="1373.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="278.0" AnchorPane.rightAnchor="233.0">
                             <image>
                                 <Image url="@../../../Images/electroDynamikPract2.png" />
