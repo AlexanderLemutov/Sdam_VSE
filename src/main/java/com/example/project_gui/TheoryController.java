@@ -32,8 +32,8 @@ public class TheoryController {
     }
 
     @FXML
-    void electrodynamicsBtnClick(ActionEvent event) {
-
+    void electrodynamicsBtnClick(ActionEvent event) throws IOException{
+        sceneView.switchToScene(event, "electroDynamikTheory.fxml");
     }
 
     @FXML
