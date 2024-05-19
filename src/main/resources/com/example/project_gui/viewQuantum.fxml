@@ -122,6 +122,36 @@
                                 <Font size="19.0" />
                             </font>
                         </Text>
+                  <Text fx:id="textAnswer1" layoutX="439.0" layoutY="182.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(29)">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="textAnswer2" layoutX="444.0" layoutY="677.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(2)">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="textAnswer3" layoutX="450.0" layoutY="1168.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(50)">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="textAnswer4" layoutX="451.0" layoutY="1372.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(25)">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="textAnswer5" layoutX="450.0" layoutY="1593.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(92)">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="textAnswer6" layoutX="450.0" layoutY="2110.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(11)">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
                     </children>
                 </AnchorPane>
             </content>

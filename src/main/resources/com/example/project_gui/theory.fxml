@@ -31,7 +31,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Text layoutX="513.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите раздел">
+      <Text layoutX="450.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите раздел теории">
          <font>
             <Font size="35.0" />
          </font>
