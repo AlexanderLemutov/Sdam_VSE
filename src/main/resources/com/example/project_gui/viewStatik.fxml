@@ -63,89 +63,89 @@
                         </Text>
                         <TextField fx:id="answerField1" layoutX="171.0" layoutY="1653.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
                         <TextField fx:id="answerField2" layoutX="165.0" layoutY="1082.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
-                        <Text layoutX="123.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1) К левому концу невесомого стержня прикреплен груз массой 3 кг (см. рис.). Стержень расположили на опоре, отстоящей от его левого конца на 0,2 длины стержня. Чему равна масса груза, который надо подвесить к правому концу стержня, чтобы он находился в равновесии? (Ответ дайте в килограммах.)" textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="75.08267211914062" AnchorPane.topAnchor="74.0">
-                            <font>
-                                <Font size="22.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="100.0" layoutY="586.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2) Под действием веса груза, равного mg, и силы F рычаг, представленный на рисунке, находится в равновесии. Расстояния между точками приложения сил и точкой опоры, а также проекции этих расстояний на вертикальную и горизонтальную оси указаны на рисунке.  Если модуль силы F равен 600 Н, а груз на плоскость не давит, то каков модуль силы тяжести, действующей на груз? (Ответ дайте в ньютонах.)" textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594">
-                            <font>
-                                <Font size="22.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="106.0" layoutY="1196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3) На рисунке изображена система, состоящая из невесомого рычага и идеального блока. Масса груза 100 г. Какова величина силы F, если система находится в равновесии? (Ответ дайте в ньютонах.) Ускорение свободного падения принять равным 10 м/⁠с^2." textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594" AnchorPane.leftAnchor="106.0" AnchorPane.rightAnchor="92.08267211914062">
-                            <font>
-                                <Font size="22.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="103.0" layoutY="1769.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4) Однородная лестница массой 20 кг прислонена к гладкой вертикальной стене, составляя с ней угол 60о. Пол шероховатый. Чему равен модуль силы реакции, действующей на верхний конец лестницы? Ответ дайте в ньютонах и округлите до целого числа." textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594">
-                            <font>
-                                <Font size="22.0" />
-                            </font>
-                        </Text>
-                        <TextField fx:id="answerField3" layoutX="171.0" layoutY="1867.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
-                        <Text layoutX="106.0" layoutY="1886.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
-                            <font>
-                                <Font size="19.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="103.0" layoutY="1968.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5) Ступенчатый блок имеет внутренний шкив радиусом 6 см. К нитям, намотанным на внешний и внутренний шкивы, подвешены грузы так, как показано на рисунке. Трение в оси блока отсутствует. Чему равен радиус внешнего шкива блока, если система находится в равновесии? Ответ выразите в сантиметрах." textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594">
-                            <font>
-                                <Font size="22.0" />
-                            </font>
-                        </Text>
-                        <ImageView fitHeight="294.0" fitWidth="294.0" layoutX="521.0" layoutY="2112.0" pickOnBounds="true" preserveRatio="true">
-                            <image>
-                                <Image url="@../../../Images/StatikaPract4.png" />
-                            </image>
-                        </ImageView>
-                        <TextField fx:id="answerField4" layoutX="171.0" layoutY="2465.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
-                        <Text layoutX="106.0" layoutY="2484.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
-                            <font>
-                                <Font size="19.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="100.0" layoutY="2585.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6) Очень легкая рейка закреплена на горизонтальной оси O, перпендикулярной плоскости рисунка, и может вращаться вокруг нее без трения. К рейке приложены четыре силы, изображенные на рисунке. Из приведенного ниже списка выберите все правильные утверждения." textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594">
-                            <font>
-                                <Font size="22.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="103.0" layoutY="2737.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.  Относительно оси O минимальное плечо имеет сила F1.">
-                            <font>
-                                <Font size="22.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="103.0" layoutY="2776.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.  Относительно оси O максимальное плечо имеет сила F4. ">
-                            <font>
-                                <Font size="22.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="103.0" layoutY="2816.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3.  Относительно оси O минимальным будет момент, создаваемый силой F1. ">
-                            <font>
-                                <Font size="22.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="103.0" layoutY="2856.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4.  Относительно оси O максимальным будет момент, создаваемый силой F4.">
-                            <font>
-                                <Font size="22.0" />
-                            </font>
-                        </Text>
-                        <Text layoutX="103.0" layoutY="2895.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5.  В момент времени t  =  5 с тело В достигло максимальной скорости движения.">
-                            <font>
-                                <Font size="22.0" />
-                            </font>
-                        </Text>
-                        <ImageView fitHeight="300.0" fitWidth="380.0" layoutX="422.0" layoutY="2937.0" pickOnBounds="true" preserveRatio="true">
-                            <image>
-                                <Image url="@../../../Images/StatikaPract5.png" />
-                            </image>
-                        </ImageView>
-                        <TextField fx:id="answerField5" layoutX="171.0" layoutY="3262.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
-                        <Text layoutX="106.0" layoutY="3281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
-                            <font>
-                                <Font size="19.0" />
-                            </font>
-                        </Text>
+                  <Text layoutX="123.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1) К левому концу невесомого стержня прикреплен груз массой 3 кг (см. рис.). Стержень расположили на опоре, отстоящей от его левого конца на 0,2 длины стержня. Чему равна масса груза, который надо подвесить к правому концу стержня, чтобы он находился в равновесии? (Ответ дайте в килограммах.)" textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="75.08267211914062" AnchorPane.topAnchor="74.0">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="100.0" layoutY="586.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2) Под действием веса груза, равного mg, и силы F рычаг, представленный на рисунке, находится в равновесии. Расстояния между точками приложения сил и точкой опоры, а также проекции этих расстояний на вертикальную и горизонтальную оси указаны на рисунке.  Если модуль силы F равен 600 Н, а груз на плоскость не давит, то каков модуль силы тяжести, действующей на груз? (Ответ дайте в ньютонах.)" textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="106.0" layoutY="1196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3) На рисунке изображена система, состоящая из невесомого рычага и идеального блока. Масса груза 100 г. Какова величина силы F, если система находится в равновесии? (Ответ дайте в ньютонах.) Ускорение свободного падения принять равным 10 м/⁠с^2." textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594" AnchorPane.leftAnchor="106.0" AnchorPane.rightAnchor="92.08267211914062">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="103.0" layoutY="1769.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4) Однородная лестница массой 20 кг прислонена к гладкой вертикальной стене, составляя с ней угол 60о. Пол шероховатый. Чему равен модуль силы реакции, действующей на верхний конец лестницы? Ответ дайте в ньютонах и округлите до целого числа." textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="answerField3" layoutX="171.0" layoutY="1867.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
+                  <Text layoutX="106.0" layoutY="1886.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="103.0" layoutY="1968.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5) Ступенчатый блок имеет внутренний шкив радиусом 6 см. К нитям, намотанным на внешний и внутренний шкивы, подвешены грузы так, как показано на рисунке. Трение в оси блока отсутствует. Чему равен радиус внешнего шкива блока, если система находится в равновесии? Ответ выразите в сантиметрах." textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="294.0" fitWidth="294.0" layoutX="521.0" layoutY="2112.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/StatikaPract4.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="answerField4" layoutX="171.0" layoutY="2465.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
+                  <Text layoutX="106.0" layoutY="2484.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="100.0" layoutY="2585.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6) Очень легкая рейка закреплена на горизонтальной оси O, перпендикулярной плоскости рисунка, и может вращаться вокруг нее без трения. К рейке приложены четыре силы, изображенные на рисунке. Из приведенного ниже списка выберите все правильные утверждения." textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="103.0" layoutY="2737.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.  Относительно оси O минимальное плечо имеет сила F1.">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="103.0" layoutY="2776.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.  Относительно оси O максимальное плечо имеет сила F4. ">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="103.0" layoutY="2816.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3.  Относительно оси O минимальным будет момент, создаваемый силой F1. ">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="103.0" layoutY="2856.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4.  Относительно оси O максимальным будет момент, создаваемый силой F4.">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="103.0" layoutY="2895.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5.  В момент времени t  =  5 с тело В достигло максимальной скорости движения.">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="300.0" fitWidth="380.0" layoutX="422.0" layoutY="2937.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/StatikaPract5.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="answerField5" layoutX="171.0" layoutY="3262.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
+                  <Text layoutX="106.0" layoutY="3281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
                     </children>
                 </AnchorPane>
             </content>
