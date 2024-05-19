@@ -47,8 +47,8 @@ public class TheoryController {
     }
 
     @FXML
-    void quantumBtnClick(ActionEvent event) {
-
+    void quantumBtnClick(ActionEvent event) throws IOException {
+        sceneView.switchToScene(event, "quantumTheory.fxml");
     }
 
 }
