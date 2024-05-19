@@ -21,9 +21,9 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <ScrollPane layoutX="75.0" prefHeight="10000.0" prefWidth="1205.0">
+      <ScrollPane layoutX="75.0" prefHeight="735.0" prefWidth="1205.0">
         <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="9860.0" prefWidth="1190.0" style="-fx-background-color: white;">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="7450.0" prefWidth="1190.0" style="-fx-background-color: white;">
                <children>
                   <ImageView fitHeight="847.0" fitWidth="1102.0" layoutX="101.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -123,26 +123,6 @@
                   <ImageView fitHeight="353.0" fitWidth="1163.0" layoutX="20.0" layoutY="7125.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../Images/quant_th13.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="727.0" fitWidth="1102.0" layoutX="25.0" layoutY="7476.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../Images/quant_th14.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="62.0" fitWidth="1183.0" layoutX="25.0" layoutY="8239.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../Images/quant_th15.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="843.0" fitWidth="1135.0" layoutX="25.0" layoutY="8326.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../Images/quant_th16.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="675.0" fitWidth="1170.0" layoutX="20.0" layoutY="9161.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../Images/quant_th17.png" />
                      </image>
                   </ImageView>
                </children>
