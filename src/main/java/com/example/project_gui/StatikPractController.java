@@ -16,13 +16,7 @@ public class StatikPractController {
     private ScrollPane scrollPane;
 
     @FXML
-    private TextField answerField;
-
-    @FXML
-    private TextField answerField1;
-
-    @FXML
-    private TextField answerField2;
+    private TextField answerField, answerField1, answerField2, answerField3, answerField4, answerField5;
 
     @FXML
     private Button chekButton;
@@ -33,8 +27,8 @@ public class StatikPractController {
     @FXML
     void initialize() {
         AnchorPane.setBottomAnchor(scrollPane, -1.5);
-        List<TextField> fieldList = new ArrayList<>(Arrays.asList(answerField, answerField1, answerField2));
-        List<String> correctAnswerList = new ArrayList<>(Arrays.asList("100", "0", "4"));
+        List<TextField> fieldList = new ArrayList<>(Arrays.asList(answerField, answerField1, answerField2, answerField3, answerField4, answerField5));
+        List<String> correctAnswerList = new ArrayList<>(Arrays.asList("0,75", "150", "2", "173", "24", "25"));
 
         Check check = new Check(fieldList, correctAnswerList);
         SceneController sceneView = new SceneController();

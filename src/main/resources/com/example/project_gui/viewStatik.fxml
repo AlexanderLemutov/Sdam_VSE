@@ -24,48 +24,128 @@
             </graphic></Button>
         <ScrollPane fx:id="scrollPane" layoutX="64.0" layoutY="-2.0" pannable="true" prefHeight="3000.0" prefWidth="1216.0" AnchorPane.bottomAnchor="-3000.0" AnchorPane.leftAnchor="64.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <content>
-                <AnchorPane fx:id="anchorPaneInScroll" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="3000.0" prefWidth="1200.0" style="-fx-background-color: white;">
+                <AnchorPane fx:id="anchorPaneInScroll" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="3413.0" prefWidth="1200.0" style="-fx-background-color: white;">
                     <children>
-                        <ImageView fitHeight="403.0" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="1268.3333333333333" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <ImageView fitHeight="233.0" fitWidth="569.0" layoutX="324.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="2551.0" AnchorPane.leftAnchor="324.0" AnchorPane.rightAnchor="316.0233154296875" AnchorPane.topAnchor="216.0">
                             <image>
-                                <Image url="@../../../Images/dynamikPract1.png" />
+                                <Image url="@../../../Images/StatikaPract1.png" />
                             </image>
                         </ImageView>
-                        <TextField fx:id="answerField" layoutX="103.0" layoutY="270.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" AnchorPane.leftAnchor="103.0" AnchorPane.rightAnchor="820.9999999999999" AnchorPane.topAnchor="270.0" />
-                        <Text layoutX="36.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674" AnchorPane.bottomAnchor="2704.2314453125" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="1099.3333333333333" AnchorPane.topAnchor="270.4970703125">
+                        <TextField fx:id="answerField" layoutX="165.0" layoutY="488.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="761.0" AnchorPane.topAnchor="488.0" />
+                        <Text layoutX="100.0" layoutY="507.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674" AnchorPane.bottomAnchor="2486.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="1035.3333333333333" AnchorPane.topAnchor="486.0">
                             <font>
                                 <Font size="19.0" />
                             </font>
                         </Text>
-                        <Button fx:id="chekButton" layoutX="551.0" layoutY="2873.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="33.0" prefWidth="99.0" styleClass="check-btn" text="Сдать" textAlignment="CENTER" AnchorPane.bottomAnchor="97.0" AnchorPane.leftAnchor="551.0" AnchorPane.rightAnchor="550.0" AnchorPane.topAnchor="2870.0">
+                        <Button fx:id="chekButton" layoutX="557.0" layoutY="3369.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="33.0" prefWidth="99.0" styleClass="check-btn" text="Сдать" textAlignment="CENTER" AnchorPane.bottomAnchor="36.0" AnchorPane.leftAnchor="557.0" AnchorPane.rightAnchor="547.6666666666667">
                             <font>
                                 <Font size="14.0" />
-                            </font>
-                     <cursor>
-                        <Cursor fx:constant="HAND" />
-                     </cursor></Button>
-                        <ImageView fitHeight="447.0" fitWidth="1200.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                            </font></Button>
+                        <ImageView fitHeight="300.0" fitWidth="1200.0" layoutX="391.0" layoutY="742.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="391.0" AnchorPane.rightAnchor="391.0">
                             <image>
-                                <Image url="@../../../Images/dynamikPract2.png" />
+                                <Image url="@../../../Images/StatikaPract2.png" />
                             </image>
                         </ImageView>
-                        <Text layoutX="36.0" layoutY="779.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674" AnchorPane.bottomAnchor="2216.2314453125" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="1099.3333333333333" AnchorPane.topAnchor="758.4970703125">
+                        <Text layoutX="106.0" layoutY="1674.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674" AnchorPane.bottomAnchor="1319.0" AnchorPane.leftAnchor="106.0" AnchorPane.rightAnchor="1029.3333333333333" AnchorPane.topAnchor="1653.0">
                             <font>
                                 <Font size="19.0" />
                             </font>
                         </Text>
-                        <ImageView fitHeight="442.0" fitWidth="1200.0" layoutX="-7.0" layoutY="789.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                        <ImageView fitHeight="300.0" fitWidth="1200.0" layoutX="447.0" layoutY="1315.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="447.0" AnchorPane.rightAnchor="419.920166015625">
                             <image>
-                                <Image url="@../../../Images/dynamikPract3.png" />
+                                <Image url="@../../../Images/StatikaPract3.png" />
                             </image>
                         </ImageView>
-                        <Text layoutX="36.0" layoutY="1025.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
+                        <Text layoutX="100.0" layoutY="1102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
                             <font>
                                 <Font size="19.0" />
                             </font>
                         </Text>
-                        <TextField fx:id="answerField1" layoutX="101.0" layoutY="760.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
-                        <TextField fx:id="answerField2" layoutX="101.0" layoutY="1005.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
+                        <TextField fx:id="answerField1" layoutX="171.0" layoutY="1653.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
+                        <TextField fx:id="answerField2" layoutX="165.0" layoutY="1082.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
+                        <Text layoutX="123.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1) К левому концу невесомого стержня прикреплен груз массой 3 кг (см. рис.). Стержень расположили на опоре, отстоящей от его левого конца на 0,2 длины стержня. Чему равна масса груза, который надо подвесить к правому концу стержня, чтобы он находился в равновесии? (Ответ дайте в килограммах.)" textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="75.08267211914062" AnchorPane.topAnchor="74.0">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="100.0" layoutY="586.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2) Под действием веса груза, равного mg, и силы F рычаг, представленный на рисунке, находится в равновесии. Расстояния между точками приложения сил и точкой опоры, а также проекции этих расстояний на вертикальную и горизонтальную оси указаны на рисунке.  Если модуль силы F равен 600 Н, а груз на плоскость не давит, то каков модуль силы тяжести, действующей на груз? (Ответ дайте в ньютонах.)" textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="106.0" layoutY="1196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3) На рисунке изображена система, состоящая из невесомого рычага и идеального блока. Масса груза 100 г. Какова величина силы F, если система находится в равновесии? (Ответ дайте в ньютонах.) Ускорение свободного падения принять равным 10 м/⁠с^2." textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594" AnchorPane.leftAnchor="106.0" AnchorPane.rightAnchor="92.08267211914062">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="103.0" layoutY="1769.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4) Однородная лестница массой 20 кг прислонена к гладкой вертикальной стене, составляя с ней угол 60о. Пол шероховатый. Чему равен модуль силы реакции, действующей на верхний конец лестницы? Ответ дайте в ньютонах и округлите до целого числа." textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <TextField fx:id="answerField3" layoutX="171.0" layoutY="1867.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
+                        <Text layoutX="106.0" layoutY="1886.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
+                            <font>
+                                <Font size="19.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="103.0" layoutY="1968.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5) Ступенчатый блок имеет внутренний шкив радиусом 6 см. К нитям, намотанным на внешний и внутренний шкивы, подвешены грузы так, как показано на рисунке. Трение в оси блока отсутствует. Чему равен радиус внешнего шкива блока, если система находится в равновесии? Ответ выразите в сантиметрах." textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <ImageView fitHeight="294.0" fitWidth="294.0" layoutX="521.0" layoutY="2112.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../Images/StatikaPract4.png" />
+                            </image>
+                        </ImageView>
+                        <TextField fx:id="answerField4" layoutX="171.0" layoutY="2465.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
+                        <Text layoutX="106.0" layoutY="2484.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
+                            <font>
+                                <Font size="19.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="100.0" layoutY="2585.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6) Очень легкая рейка закреплена на горизонтальной оси O, перпендикулярной плоскости рисунка, и может вращаться вокруг нее без трения. К рейке приложены четыре силы, изображенные на рисунке. Из приведенного ниже списка выберите все правильные утверждения." textAlignment="JUSTIFY" wrappingWidth="1001.9173278808594">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="103.0" layoutY="2737.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.  Относительно оси O минимальное плечо имеет сила F1.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="103.0" layoutY="2776.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.  Относительно оси O максимальное плечо имеет сила F4. ">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="103.0" layoutY="2816.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3.  Относительно оси O минимальным будет момент, создаваемый силой F1. ">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="103.0" layoutY="2856.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4.  Относительно оси O максимальным будет момент, создаваемый силой F4.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="103.0" layoutY="2895.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5.  В момент времени t  =  5 с тело В достигло максимальной скорости движения.">
+                            <font>
+                                <Font size="22.0" />
+                            </font>
+                        </Text>
+                        <ImageView fitHeight="300.0" fitWidth="380.0" layoutX="422.0" layoutY="2937.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../Images/StatikaPract5.png" />
+                            </image>
+                        </ImageView>
+                        <TextField fx:id="answerField5" layoutX="171.0" layoutY="3262.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="280.0" />
+                        <Text layoutX="106.0" layoutY="3281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ответ:" wrappingWidth="64.66666666666674">
+                            <font>
+                                <Font size="19.0" />
+                            </font>
+                        </Text>
                     </children>
                 </AnchorPane>
             </content>
