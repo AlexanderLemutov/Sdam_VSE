@@ -64,7 +64,7 @@ public class MechTheoryController {
 
     @FXML
     void statikBtnClick(ActionEvent event) throws IOException {
-        sceneView.switchToScene(event, "viewStatik.fxml");
+        sceneView.switchToScene(event, "statikTheory.fxml");
     }
 
     SceneController sceneView = new SceneController();
