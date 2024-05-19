@@ -17,17 +17,8 @@ public class DynamikTheoryController {
     private ScrollPane scrollPaneTheoryDynamik;
 
     @FXML
-    void initialize(){
-        AnchorPane.setBottomAnchor(scrollPaneTheoryDynamik, -1.5);
-        SceneController sceneView = new SceneController();
-        returnButton.setOnAction(actionEvent -> {
-            try {
-                sceneView.switchToScene(actionEvent,"mechTheory.fxml");
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-        });
+    void returnBtnClick(ActionEvent event) throws IOException {
+        sceneView.switchToScene(event, "mechTheory.fxml");
     }
-
     SceneController sceneView = new SceneController();
 }
