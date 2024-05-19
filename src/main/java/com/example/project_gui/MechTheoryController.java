@@ -49,7 +49,7 @@ public class MechTheoryController {
 
     @FXML
     void dynamikBtnClick(ActionEvent event) throws IOException {
-        sceneView.switchToScene(event, "viewDynamik.fxml");
+        sceneView.switchToScene(event, "dynamikTheory.fxml");
     }
 
     @FXML

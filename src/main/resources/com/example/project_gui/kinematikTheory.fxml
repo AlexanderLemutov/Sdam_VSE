@@ -5,9 +5,10 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="735.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_gui.KinematikTheoryController">
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_gui.KinematikTheoryController">
    <children>
       <Button fx:id="returnBtn" mnemonicParsing="false" onAction="#returnBtnClick" prefHeight="30.0" prefWidth="75.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <graphic>
@@ -18,9 +19,166 @@
             </ImageView>
          </graphic>
       </Button>
-      <ScrollPane layoutX="75.0" prefHeight="735.0" prefWidth="1280.0">
+      <ScrollPane layoutX="64.0" layoutY="-2.0" pannable="true" prefHeight="735.0" prefWidth="1216.0" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="0.0">
         <content>
-          <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="3000.0" prefWidth="1265.0" />
+          <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="6121.0" prefWidth="1189.0" style="-fx-background-color: white;">
+               <children>
+                  <Text layoutX="355.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Равноускоренное прямолинейное движение">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="15.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Механическое движение тела — изменение положения тела в пространстве относительно других тел с течением времени. При механическом движении тела взаимодействуют по законам механики." wrappingWidth="1153.3367958068848">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="15.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кинематика описывает геометрические свойства движения без учета причин, его вызывающих. Главной задачей кинематики является математическое определение положения и характеристик движения точек или тел во времени." wrappingWidth="1145.3365516662598">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="15.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Исходными понятиями являются пространство и время." wrappingWidth="1086.1368446350098">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="15.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="В кинематике все тела принято рассматривать как материальные точки." wrappingWidth="1092.5369911193848">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="15.0" layoutY="348.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Материальная точка — это тело, размеры которого очень малы по сравнению с расстоянием, пройденным им. В кинематике при рассмотрении движения тела его размерами пренебрегают." wrappingWidth="1143.2032508850098">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="500.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Основные понятия" underline="true">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="15.0" layoutY="452.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Траектория — линия, вдоль которой движется тело." wrappingWidth="1001.3367347717285">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="15.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Путь — длина участка траектории, пройденного телом за определенный промежуток времени." wrappingWidth="1078.1368446350098">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="15.0" layoutY="452.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="1055.7366981506348">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="15.0" layoutY="538.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Радиус-вектор — вектор, проведенный из начала координат в место расположения материальной точки. Положение материальной точки в пространстве задается радиус-вектором." wrappingWidth="1085.6031532287598">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="15.0" layoutY="609.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Перемещение — вектор, соединяющий начальное и конечное положение тела." wrappingWidth="1103.2032508850098">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="393.0" fitWidth="911.0" layoutX="183.0" layoutY="642.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/kin_img1.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="15.0" layoutY="985.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Система отсчета — тело отсчета (начало координат) вместе с жестко связанной с ним системой координат и часами." wrappingWidth="1103.2032508850098">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="237.0" layoutY="1061.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Кинематические характеристики движения материальной точки" underline="true">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="15.0" layoutY="1106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. Перемещение — вектор, соединяющий два последовательных положения материальной точки на траектории. Перемещение является вектором-разностью радиус-векторов конечного и начального положений тела" wrappingWidth="1103.2032508850098">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="15.0" layoutY="1204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Графический метод нахождения перемещения и пройденного пути: для определения проекции перемещения нужно найти численно равную ей площадь под графиком проекции скорости Vx(t)." wrappingWidth="1103.2032508850098">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="407.0" fitWidth="536.0" layoutX="338.0" layoutY="1248.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/kin_img2.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="15.0" layoutY="1660.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Скорость — векторная физическая величина, которая характеризует быстроту изменения положения материальной точки в пространстве с течением времени." wrappingWidth="1103.2032508850098">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="15.0" layoutY="1728.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Единицы измерения:" wrappingWidth="1103.2032508850098">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="15.0" layoutY="1763.0" strokeType="OUTSIDE" strokeWidth="0.0" text="[V] = м/с (метр в секунду)." wrappingWidth="1103.2032508850098">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="140.0" fitWidth="1125.0" layoutX="12.0" layoutY="1780.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/kin_th4.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="82.0" fitWidth="352.0" layoutX="8.0" layoutY="1931.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/kin_th5.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="618.0" fitWidth="1080.0" layoutX="13.0" layoutY="2013.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/kin_th6.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="786.0" fitWidth="1117.0" layoutX="10.0" layoutY="2556.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/kin_th7.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="350.0" fitWidth="873.0" layoutX="14.0" layoutY="3327.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/kin_th8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="940.0" fitWidth="977.0" layoutX="14.0" layoutY="3682.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/kin_th9.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="706.0" fitWidth="1096.0" layoutX="13.0" layoutY="4454.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/kin_th10.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="183.0" fitWidth="1117.0" layoutX="14.0" layoutY="5179.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/kin_th11.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="187.0" fitWidth="1099.0" layoutX="22.0" layoutY="5306.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/kin_th12.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="672.0" fitWidth="1124.0" layoutX="20.0" layoutY="5498.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Images/kin_th13.png" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
         </content>
       </ScrollPane>
    </children>
