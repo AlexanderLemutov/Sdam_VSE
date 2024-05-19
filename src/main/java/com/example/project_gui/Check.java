@@ -47,5 +47,8 @@ public class Check {
         } else if (Objects.equals(key, "electroDynamik")) {
             userData.setUserInputElectroDynamik(userList);
         }
+        else if (Objects.equals(key, "quantum")) {
+            userData.setUserInputQuantum(userList);
+        }
     }
 }
