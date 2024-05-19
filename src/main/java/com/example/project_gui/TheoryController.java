@@ -42,8 +42,8 @@ public class TheoryController {
     }
 
     @FXML
-    void molecularBtnClick(ActionEvent event) {
-
+    void molecularBtnClick(ActionEvent event) throws IOException {
+        sceneView.switchToScene(event, "molecularTheory.fxml");
     }
 
     @FXML
