@@ -93,6 +93,31 @@
                         <Font size="19.0" />
                      </font>
                   </Text>
+                  <Text fx:id="textAnswer1" layoutX="454.0" layoutY="189.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(10)">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="textAnswer2" layoutX="454.0" layoutY="377.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(2)">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="textAnswer3" layoutX="461.0" layoutY="579.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(2)">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="textAnswer4" layoutX="458.0" layoutY="1088.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(0.5)">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="textAnswer5" layoutX="455.0" layoutY="1309.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(20)">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
                     </children>
                 </AnchorPane>
             </content>
