@@ -44,6 +44,8 @@ public class Check {
             userData.setUserInputStatik(userList);
         } else if (Objects.equals(key, "molecular")) {
             userData.setUserInputMolecular(userList);
+        } else if (Objects.equals(key, "electroDynamik")) {
+            userData.setUserInputElectroDynamik(userList);
         }
     }
 }

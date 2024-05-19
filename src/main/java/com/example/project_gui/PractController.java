@@ -22,7 +22,8 @@ public class PractController {
     private Button returnBtn;
 
     @FXML
-    void electrodynamicsBtnClick(MouseEvent event) {
+    void electrodynamicsBtnClick(ActionEvent event) throws IOException {
+        sceneView.switchToScene(event, "viewElectroDynamik.fxml");
 
     }
 
