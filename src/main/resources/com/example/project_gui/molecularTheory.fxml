@@ -23,51 +23,36 @@
       </Button>
       <ScrollPane layoutX="75.0" prefHeight="735.0" prefWidth="1205.0">
         <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="5470.0" prefWidth="1190.0" style="-fx-background-color: white;">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="3500.0" prefWidth="1190.0" style="-fx-background-color: white;">
                <children>
-                  <ImageView fitHeight="830.0" fitWidth="1056.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="830.0" fitWidth="1056.0" layoutX="100.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../Images/mkt_th1.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="452.0" fitWidth="925.0" layoutX="14.0" layoutY="843.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="452.0" fitWidth="925.0" layoutX="150.0" layoutY="837.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../Images/mkt_th2.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="228.0" fitWidth="798.0" layoutX="14.0" layoutY="1332.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="228.0" fitWidth="798.0" layoutX="125.0" layoutY="1332.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../Images/mkt_th3.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="890.0" fitWidth="1047.0" layoutX="18.0" layoutY="1559.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="890.0" fitWidth="1047.0" layoutX="130.0" layoutY="1563.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../Images/mkt_th4.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="841.0" fitWidth="1045.0" layoutX="22.0" layoutY="2410.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="841.0" fitWidth="1045.0" layoutX="131.0" layoutY="2422.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../Images/mkt_th5.png" />
                      </image>
                   </ImageView>
-                  <ImageView fitHeight="249.0" fitWidth="1013.0" layoutX="21.0" layoutY="3259.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="249.0" fitWidth="1013.0" layoutX="134.0" layoutY="3269.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../Images/mkt_th6.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="709.0" fitWidth="1008.0" layoutX="20.0" layoutY="3521.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../Images/mkt_th7.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="545.0" fitWidth="1244.0" layoutX="51.0" layoutY="4236.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../Images/mkt_th8.png" />
-                     </image>
-                  </ImageView>
-                  <ImageView fitHeight="721.0" fitWidth="1131.0" layoutX="6.0" layoutY="4792.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../../Images/mkt_th9.png" />
                      </image>
                   </ImageView>
                </children>
